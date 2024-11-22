@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Nav*/
+body {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f4f6;
+}
+
+.ContainerNav {
+    display: flex;
+    justify-content: center;
+    background-color: #778DA9;
+    width: 100%;
+    height: 8vh;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ContainerNav nav {
+    display: flex;
+    gap: 60px; 
+    align-items: center;
+}
+
+nav img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+nav a:hover {
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+.containerRegister {
+    width: 80%;
+    max-width: 700px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.form-containerRegister {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 350px;
+    text-align: center;        
+}
+
+.containerRegister h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.form-group {
+    flex: 1;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.btn-register {
+    background-color: #415A77;
+    flex: 1;
+}
+
+.btn-register:hover {
+    background-color: #263547;
+}
+
+.btn-back {
+    background-color: #4285F4;
+    flex: 1;
+}
+
+.btn-back:hover {
+    background-color: #357ae8;
+}
+
+.containerLogin img {
+    width: 100%;
+    height: auto;
+}
+
+form .btn-google {
+    background-color: #4285F4;
+}
+
+form .btn-google:hover {
+    background-color: #357ae8;
+}
